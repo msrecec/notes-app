@@ -1,3 +1,11 @@
-const fs = require('fs');
+const notes = require('./notes');
 
-fs.writeFileSync('notes.txt', 'My name is Mislav.');
+console.log(notes.getNotes());
+
+
+
+// const add = require('./utils');
+
+// const sum = add(4, -2);
+
+// console.log(sum);
